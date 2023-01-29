@@ -1,6 +1,18 @@
-let pi = 3.1415;
-console.log(2*10*pi);
-console.log(2*5*pi);
-console.log(2*7*pi)
-console.log(2*8*pi);
-console.log(2*9*pi);
+let name='Hania';
+let lastName='Hajduszewska';
+console.log(name + ' ' + lastName);
+
+name = 'Jan';
+lastName = 'Kowalski';
+console.log(name + ' ' + lastName);
+
+let person1 = {
+    name: 'Hania',
+    lastName: 'Hajduszewska'
+}
+console.log(person1.name + ' ' + person1.lastName);
+let person2 = {
+    name: 'Jan',
+    lastName: 'Kowalski'
+}
+console.log(person2.name + ' ' + person2.lastName);
